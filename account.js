@@ -8,12 +8,11 @@
 
 //TODO: Create variables for account balance & account pin -DONE*
 
-module.exports = {
-    balance: 143,
-    pin: 6322,
-};
-
-
 
 //Export these variables -DONE*
 
+let pin =6322
+let balance = 10000
+
+module.exports.pin = pin;
+module.exports.balance = balance;
