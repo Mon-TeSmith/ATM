@@ -1,24 +1,25 @@
 {
   "name": "nodeatmstarter",
   "version": "1.0.0",
-  "description": "ATM Project",
+  "description": "ATM user stories",
   "main": "index.js",
+  "dependencies": {
+    "ansi-regex": "^4.1.0",
+    "strip-ansi": "^5.2.0",
+    "prompt-sync": "^4.2.0"
+  },
+  "devDependencies": {},
   "scripts": {
-    "start": "node .index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Mon-TeSmith/ATM.git"
   },
+  "author": "",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/Mon-TeSmith/ATM/issues"
   },
-  "homepage": "https://github.com/Mon-TeSmith/ATM#readme",
-  "dependencies": {
-    "prompt-sync": "^4.2.0"
-  }
+  "homepage": "https://github.com/Mon-TeSmith/ATM#readme"
 }

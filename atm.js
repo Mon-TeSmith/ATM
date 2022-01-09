@@ -2,7 +2,7 @@
 // const PromptSync = require("prompt-sync");
 //TODO: Import necessary values from account.js
 const account = require("./account")
-const wallet = require("./wallet")
+// const restart = require("./mainMenu")
 
 function getBalance() {
   console.log("current balance is $" + account.balance)
@@ -15,7 +15,7 @@ function withdraw() {
   let requestedWithdraw = parseInt(prompt("How Much Do You Want to Withdraw?"));
   if(requestedWithdraw <= account.balance){
     account.balance = account.balance - requestedWithdraw;
-    console.log("Issuing $" + requestedWithraw + " From Your Checking Account, The New balance is $" + account.balance);
+    console.log("Issuing $" + requestedWithdraw + " From Your Checking Account, The New balance is $" + account.balance);
   }
   else if (requestedWithraw > account.balance){
     console.log("You Are Broke, Try Less Money")
@@ -57,4 +57,5 @@ function validatePin (){
 module.exports.getBalance = getBalance;
 module.exports.withdraw = withdraw;
 module.exports.deposit = deposit;
+// module.exports.restart = restart;
 module.exports.validatePin = validatePin;

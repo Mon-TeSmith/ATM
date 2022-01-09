@@ -23,15 +23,15 @@ atm.validatePin();
     atm.deposit();
     mainMenu();
     case 4:
-    atm.walletBalance();
+    atm.restart();
     mainMenu();
     case 5:
     console.log("Goodbye");
-    process.exit();
+    process.exit()
   }
 }
 
-mainMenu();
+mainMenu()
 
 //   let validated = false
 //   while(validated === false) {

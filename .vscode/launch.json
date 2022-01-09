@@ -19,7 +19,7 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "port": 5000,
+            "port":
             "skipFiles": [
                 "<node_internals>/**"
             ],
