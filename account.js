@@ -8,22 +8,12 @@
 
 //TODO: Create variables for account balance & account pin -DONE*
 
-let accountBalance = 4567
-const accountPin = 1177
-
-/*module.exports = {
-    balance: accountBalance,
-    pin: accountPin,
+module.exports = {
+    balance: 143,
+    pin: 6322,
 };
-*/
+
 
 
 //Export these variables -DONE*
 
-function accountBalancePin() {
-    return {
-    balance: accountBalance,
-    pin: accountPin,
-    };
-};
-module.exports = {accountBalancePin};

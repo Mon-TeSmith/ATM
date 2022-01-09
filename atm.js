@@ -1,18 +1,21 @@
 "use strict";
 //TODO: Import necessary values from account.js
-function {balance, accountPin}; = require ("accountBalancePin");
-console.log("4567");
-console.log("1177");
+const {pin} = require("./account")
+let {balance} = require("./account")
 
-function balance(accountBalance) {
-  return accountBalance
+function getBalance() {
+  return balance
+}
+
   //TODO: Return the customer's acct. balance};
-};
-function withdraw(num1, num2) {
-  return 4567 - 3298; 
-};
-  //TODO: withdraw amount from current acct. balance
-  // Log the current balance after withdrawal is made
+
+function withdraw(withdrawAmmount) {
+  balance -= parseInt(withdrawAmmount)
+    console.log(`New balance is $(balance)`);
+   //TODO: withdraw amount from current acct. balance
+  // Log the current balance after withdrawal is made  
+}
+  
 function deposit(num1, num2) {
   return 1269 + 3482;     
 };
